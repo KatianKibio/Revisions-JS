@@ -9,9 +9,8 @@ var listenerFunction = {
 		console.log("click détecté sur la balise H2")
 	}
 }
-//Mise en place des abonnementq
+//Mise en place des abonnement
 var	setupListeners = ()=>{
 	var h2 = document.querySelector('section#html h2')
 		h2.addEventListener('dblclick', listenerFunction.h2DblClick)
-	}
 }
