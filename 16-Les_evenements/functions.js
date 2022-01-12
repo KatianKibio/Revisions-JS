@@ -23,12 +23,31 @@ var listenerFunction = {
 			var element = event.target //stockage
 			console.log("var element = " , element);
 		console.log(this); // idem qu'event.target
+	},
+	bgSectionManage: function(){
+		if (this && this.style.backgroundColor == "red") {
+			this.style.backgroundColor = "green"
+			this.style.color = "white"
+		}else{
+			this.style.backgroundColor = "red"
+			this.style.color = "white"
+		}
 	}
 	
 }
 
-//Mise en place des abonnementq
+//Mise en place des abonnements
 var	setupListeners = ()=>{
+// N°1 ------------------------------------------------------------------
 	var h2 = document.querySelector('section#html h2')
 		h2.addEventListener('click', listenerFunction.h2Click)
+		//h2.onclick = listenerFunction.h2Click
+
+// N°2 ------------------------------------------------------------------
+	var sections = document.getElementsByClassName('section')
+	for (let index = 0; index < sections.length; index++) { //parcourrir les sections de la page
+		const section = sections[index];
+		
+		section.onclick = listenerFunction.bgSectionManage
+	}
 }

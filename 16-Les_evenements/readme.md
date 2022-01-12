@@ -1,5 +1,7 @@
-------------------------------------
+------- VU -----------------------------
 Faire changer de couleur au click (switcher)
+CSS - > cursor:pointer;
+document.addEventListener('click', laFonction)  =  document.onclick = laFonction
 ------------------------------------
 EVENT objet qui est générer et fourni en parametre
 
@@ -17,7 +19,7 @@ l'Objet Event -- quelques attributs
    × target /* la cible de l'évenemnt (==this)
         ø var element = event.target
         - element.style.color
-        
+
         ø this.style.color
 
    × timestamp /* le moment de création de l'évenement 
