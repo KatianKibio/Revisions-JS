@@ -7,6 +7,8 @@
 <!-- creation de l'objet formLine -->
 var formLine = document.querySelector('.form-line')
 
+<!-- ########## ########## ########## ########## ########## ########## ########## -->
+
 <!-- dans la console on peut afficher ses propriétés ainsi -->
 formLine.id  ------» first-line
 formLine.className ------» form-line ☢️ ATTENTION ☢️ .className et non .name
@@ -28,11 +30,11 @@ formLine.getAttribute('id')  <!-- = -->  formLine.id
 <!-- ######## CHANGER LES VALEURS ########## -->
 formLine.id = "une-valeur-différente
 formLine.className = ""
+
 <!-- ######## CHANGER LES VALEURS --- SET ATTRIBUTE ########## -->
 formLine.setAttribute('id', 'ma-nouvelle-valeur)
 
-<!-- manipuler le contenu des éléments -->
-
+<!-- ########## MANIPULATION DES CONTENUS DES ELEMENTS ########## -->
 CONSIDERANT CE BOUT DE CODE
 
 <h3 class="h3">Titre de taille h3</h3>
@@ -45,3 +47,26 @@ h3_modified.innerHTML = "plus petit sous-titre" ---> idem textContent
 h3_modified.textContent = "plus petit sous-titre"  ---> idem innerHTML
 h3_modified.innerHTML = "plus <b>petit</b> sous-titre" --> changer le html
     textContent ----> utile pour afficher des bouts de codes html
+
+<!-- MANIPULATION STYLE CSS -->
+h3_modified.style.color = 'blue'
+h3_modified.style.fontSize = 'blue'   ----> camelBack
+h3_modified.style.backgroundColor = 'pink'
+
+<!-- exemple de changement de disposition de block-->
+
+CONSIDERANT CE BOUT DE CODE HTML
+<div id="threeColor">
+  <div id="red"></div>
+  <div id="green"></div>
+  <div id="blue"></div>
+</div>
+
+CONSIDERANT CE BOUT DE CODE CSS
+#red, #green, #blue {
+    display: inline-block;
+  }
+
+var threeColor = document.querySelector('#threeColor')
+var blueColor = querySelector.('#blue')
+blueColor.style.display ='block'

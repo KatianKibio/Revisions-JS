@@ -3,6 +3,10 @@ body {
   color: white;
 }
 /* ---------------------------- */
+#threeColor {
+background: rgba(38, 70, 212, 0.123);
+}
+/* ---------------------------- */
 a {
   font-weight: bold;
   text-decoration: none;
@@ -23,6 +27,7 @@ li {
 /* ---------------------------- */
 
 #red, #green, #blue {
+    display: inline-block;
     width:50px;
     height:50px;
     border-radius: 50px;
