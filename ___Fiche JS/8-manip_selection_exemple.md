@@ -30,3 +30,18 @@ formLine.id = "une-valeur-différente
 formLine.className = ""
 <!-- ######## CHANGER LES VALEURS --- SET ATTRIBUTE ########## -->
 formLine.setAttribute('id', 'ma-nouvelle-valeur)
+
+<!-- manipuler le contenu des éléments -->
+
+CONSIDERANT CE BOUT DE CODE
+
+<h3 class="h3">Titre de taille h3</h3>
+<h3 class="h3">le language CSS</h3>  ---> je veux récupérer celui-ci
+<h3 class="h3">le language JS</h3>
+<!-- Je vais manipuler le h3 -->
+var h3_modified = document.querySelectorAll('.h3')[1] --> je récupére le 2em h3
+
+h3_modified.innerHTML = "plus petit sous-titre" ---> idem textContent
+h3_modified.textContent = "plus petit sous-titre"  ---> idem innerHTML
+h3_modified.innerHTML = "plus <b>petit</b> sous-titre" --> changer le html
+    textContent ----> utile pour afficher des bouts de codes html
