@@ -70,3 +70,9 @@ b {
   font-weight: bold;
   color: crimson;
 }
+/* --------------------------- -*/
+h1 {
+  font-size: 3em;
+  background: yellow;
+  color: rgb(255,0,255); /*LE fichier Js semble être prioritaire devant le fichier css */
+}
