@@ -1,18 +1,61 @@
+body {
+  background: #000;
+  color: white;
+}
+/* ---------------------------- */
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color:rgb(42, 38, 38);
+  padding:25px;
+}
+a:hover {
+  color:rgb(253, 229, 14);
+  padding: 50px;
+}
+/* ---------------------------- */
+li {
+  list-style-type: none;
+  display: inline-block;
+  background-color: rgba(253, 253, 253, 0.705);
+}
+/* ---------------------------- */
+/* ---------------------------- */
+
 #red, #green, #blue {
     width:50px;
     height:50px;
-    border-radius: 25px;
+    border-radius: 50px;
     margin:20px;
+    border:solid 9px rgb(243, 243, 243);
   }
-  
+/* ---------------------------- */
   #red {
-    background: rgb(255, 72, 0);
+    background: rgb(163, 55, 12);
   }
   
   #green {
-    background: rgb(0, 255, 0);
+    background: rgb(93, 172, 93);
   }
   
   #blue {
-    background: rgb(3, 196, 255)e;
+    background: rgb(26, 125, 155);
   }
+
+  #red:hover, #blue:hover, #green:hover {
+    border:solid 9px goldenrod;
+  }
+
+  #red:hover {
+    background: rgb(255, 2, 2);
+  }
+  
+  #green:hover {
+    background: rgb(7, 226, 7);
+  }
+  
+  #blue:hover {
+    background: rgb(1, 196, 255);
+  }
+/* ---------------------------- */
+/* ---------------------------- */
