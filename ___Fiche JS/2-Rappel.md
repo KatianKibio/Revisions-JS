@@ -2,11 +2,21 @@ JS - LES BASES
 ---------------------------------------------
 camelBake
 ----------------------------------------------
-
+"EVENT TYPE"
+-------------
 click
 dblclick
-mouseover
-mouseleave
+...........................................................
+- mouseenter  (qd  le pointeur entre dans un élément – - - mouseenter se déclenche. )
+- mouseleave  (qd le pointeur quitte un élément – mouseleave se déclenche.)
+- mouseout    (qd lun pointeur de la souris quitte un élément)
+- mouseover   (qd un pointeur de la souris survole un élément)
+VOIR → https://fr.javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave#resume
+.............................................................
+change
+focus
+load
+keypress
 ----------------------------------------------
 TYPE DE DONNEES ----> typeof(variable) ---> donne le type
 
@@ -92,3 +102,4 @@ do{
 	console.log("tour de boucle N°" +a)
     a++
 }while(i < 10) <!-- tant que c'est infèrieur à 10 je rentre dans la boucle -->
+
