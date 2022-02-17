@@ -1,0 +1,14 @@
+
+{
+    "clé": "valeur",
+    "id": 1,
+    "prenom": "Stevenson",
+    "phones": [
+        "0769375109",
+        "0640458565",
+        ""
+    ],
+    "adress": "Rue du près",
+    "ville": "Montgeron",
+    "numero": null
+}
