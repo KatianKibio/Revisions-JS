@@ -1,0 +1,29 @@
+.menu li {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    color:rgb(229, 255, 0);
+    font-weight: bolder;
+    background: rgb(146, 141, 141);
+}
+
+.menu2 li {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    background: rgb(97, 161, 140);
+}
+
+li.active {
+    background: #000;
+}
+
+li.active2 {
+    background: rgb(23, 102, 248);
+}

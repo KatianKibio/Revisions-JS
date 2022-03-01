@@ -1,0 +1,27 @@
+body {
+    margin: 150px auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 300px;
+    text-align: left;
+    background: rgb(85, 141, 132);
+}
+
+#contact-form {
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 35px;
+    background: rgb(203, 204, 137);
+    border-radius: 25px;
+}
+
+button {
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+.confirmation {
+    background: rgb(230, 0, 0);
+    width: 100%;
+}

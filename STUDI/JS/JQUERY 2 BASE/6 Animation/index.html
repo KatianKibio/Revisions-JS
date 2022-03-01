@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Animations</h1>
+
+    <div class="button">
+        <button type="button" id="hide-box"> Masquer la boîte"</button>
+        <button type="button" id="show-box">Afficher la boîte"</button>
+    </div>
+    <div class="box"></div>
+
+
+    <div class="button">
+        <button type="button" id="fadeOut-box"> Masquer la boîte"</button>
+        <button type="button" id="fadeIn-box">Afficher la boîte"</button>
+    </div>
+    <div class="box2"></div>
+
+    <h3>Animation personnalisée</h3>
+    
+    <div class="buttons">
+        <button type="button" id="trigger-animation">Déclencher l'animation</button>
+        <button type="button" id="reset-animation">Reset</button>
+
+    </div>
+    <div class="box3"></div>
+
+
+    <style>
+        body {
+            box-sizing: border-box;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+        }
+        .box, .box2 {
+            margin-top: 10px;
+            width: 100px;
+            height: 100px;
+            background: rgb(18, 9, 97);
+            border-radius: 2px;
+        }
+        .box2 {
+            background: rgb(22, 192, 30);
+        }
+        .box3 {
+            margin-top: 10px;
+            width: 20%;
+            height: 100px;
+            border-radius: 2px;
+            background: rgb(255, 232, 29);
+        }
+        button {
+            margin-top: 10px;
+            border-radius: 2px;
+        }
+    </style>
+
+    <script src="../jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
